@@ -1,0 +1,20 @@
+{
+  "name": "kipbase-fetch",
+  "version": "1.0.0",
+  "description": "封装fetch函数，支持超时判断，支持GET和POST请求",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fetch",
+    "promise"
+  ],
+  "author": "kipbase",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.2.5",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
